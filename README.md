@@ -1,12 +1,12 @@
 # SegMentTree
 that can be used for almost any type of range queries like range sum, range minimum, range product queries or any other user defined queries.
+
 #ifndef SEGMENTTREE_H
 #define SEGMENTTREE_H
 #define left(i) (2*i + 1)
 #define right(i) (2*i + 2)
 #define parent(i) ((i-1)/2)
 #include <vector>
-
 template<class T>
 class SegmentTree
 {
