@@ -1,11 +1,10 @@
 # SegMentTree
 that can be used for almost any type of range queries like range sum, range minimum, range product queries or any other user defined queries.
 General purpose segment tree library.
-
+<pre>
 1.include SegmentTree.h
 
 2.to construct a segment tree you need to specify the following:
-
       a. The datatype of array for which the tree is being constructed.    
       b. an array or vector for which the tree is to be constructed.
       c. a value that can be used to fill the extra nodes of the tree.
@@ -23,6 +22,7 @@ General purpose segment tree library.
       SegmentTree < long long > rangeProductQueries(dataVector,1,product);
 
 I am demonstrating that how one can use this library in his code-
-
       ex.1 problem link of GSS1 problem spoj: https://www.spoj.com/problems/GSS1/ 
       solution to SPOJ GSS1 using segTree library : https://ideone.com/QkVcKA
+      
+<pre>
